@@ -6,7 +6,7 @@ const request = (event, context = {}) => {
     }
 
     // body parse
-    const body = prepareBody(body);
+    const body = prepareBody(event);
 
     return {
         body,
