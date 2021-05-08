@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-adapters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ready-use adapters (resolvers and body parsers) for AWS Lambda Proxy integration",
   "main": "index.js",
   "scripts": {
