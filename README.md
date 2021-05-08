@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ahmetonurslmz/aws-lambda-adapters.svg?branch=main)](https://travis-ci.com/ahmetonurslmz/aws-lambda-adapters)
 [![dependencies Status](https://status.david-dm.org/gh/ahmetonurslmz/aws-lambda-adapters.svg)](https://david-dm.org/ahmetonurslmz/aws-lambda-adapters)
 [![devDependencies Status](https://status.david-dm.org/gh/ahmetonurslmz/aws-lambda-adapters.svg?type=dev)](https://david-dm.org/ahmetonurslmz/aws-lambda-adapters?type=dev)
 [![install size](https://packagephobia.com/badge?p=aws-lambda-adapters)](https://packagephobia.com/result?p=aws-lambda-adapters)
