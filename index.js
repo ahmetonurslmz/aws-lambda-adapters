@@ -1,15 +1,13 @@
-const success = require('./resolvers/success');
-const error = require('./resolvers/error');
+const success = require('./response/success');
+const error = require('./response/error');
 
-const bodyParser = require('./parsers/body')
+const request = require('./request');
 
 
 module.exports = {
-    resolvers: {
+    request,
+    response: {
         success,
         error
-    },
-    parsers: {
-        body: bodyParser
     },
 };

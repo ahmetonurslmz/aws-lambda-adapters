@@ -1,4 +1,4 @@
-const bodyParser = (event) => {
+const prepareBody = (event) => {
     let body = {};
     if (event.body) {
         body = typeof event.body === 'string' ? JSON.parse(event.body) : event.body;
@@ -6,4 +6,4 @@ const bodyParser = (event) => {
     return body;
 };
 
-module.exports = bodyParser;
+module.exports = prepareBody;
