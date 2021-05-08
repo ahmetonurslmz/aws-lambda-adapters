@@ -9,7 +9,7 @@ AWS Lambda Adapters
 Ready-use adapters (resolvers and body parsers) for AWS Lambda Proxy integration
 
 
-AWS Lambda Proxy integration in API gateway on AWS has structure for getting request and returning response. However, this structure needs some ready-use adapters to parse body and return response. AWS Lambda adapters are here!
+AWS Lambda Proxy integration for API gateway on AWS has a fixed structure for getting request and returning response. However, this structure needs some ready-use adapters, converters and parsers so that AWS Lambda adapters can provide you with efficient input and output.
 
 For better performance, you must use "**Use Lambda Proxy integration**" for your dependent API gateway with lambda function.
 
@@ -24,7 +24,7 @@ $ npm install aws-lambda-adapters
 ## How to use
 
 ### Response
-Response is ready-use resolvers in order to return data to client. There are two main response kind called success and error.
+Response is ready-use resolvers in order to return data to client. There are two kind of responses called success and error.
 
 ```js
 const { response } = require('aws-lambda-adapters');
