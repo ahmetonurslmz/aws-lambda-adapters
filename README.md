@@ -1,3 +1,8 @@
+[![dependencies Status](https://status.david-dm.org/gh/ahmetonurslmz/aws-lambda-adapters.svg)](https://david-dm.org/ahmetonurslmz/aws-lambda-adapters)
+[![devDependencies Status](https://status.david-dm.org/gh/ahmetonurslmz/aws-lambda-adapters.svg?type=dev)](https://david-dm.org/ahmetonurslmz/aws-lambda-adapters?type=dev)
+[![install size](https://packagephobia.com/badge?p=aws-lambda-adapters)](https://packagephobia.com/result?p=aws-lambda-adapters)
+[![npm version](https://badge.fury.io/js/aws-lambda-adapters.svg)](https://badge.fury.io/js/aws-lambda-adapters)
+
 AWS Lambda Adapters
 =============
 Ready-use adapters (resolvers and body parsers) for AWS Lambda Proxy integration
